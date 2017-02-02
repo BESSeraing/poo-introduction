@@ -10,7 +10,7 @@ class Cote
      * @param $nomDuCours
      * @param $valueInPercent
      */
-    public function __construct($nomDuCours, $valueInPercent)
+    public function __construct($nomDuCours=null, $valueInPercent=null)
     {
         $this->setNomDuCours($nomDuCours);
         $this->setValueInPercent($valueInPercent);

@@ -71,7 +71,7 @@ class Eleve
     /**
      * @return bool
      */
-    public function isPresent(): bool
+    public function isPresent()
     {
         return $this->present;
     }
@@ -87,7 +87,7 @@ class Eleve
     /**
      * @return array
      */
-    public function getCotes(): array
+    public function getCotes()
     {
         return $this->cotes;
     }
